@@ -10,7 +10,7 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('Burger', 'Prepared with Bread', 'https://mytownburger.com/wp-content/uploads/2019/10/06_Paneer-Burger.jpg'),
     new Recipe('Burger', 'Prepared with Bread', 'https://mytownburger.com/wp-content/uploads/2019/10/06_Paneer-Burger.jpg')
-  ]
+  ];
   constructor() { }
 
   ngOnInit(): void {

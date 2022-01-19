@@ -1,4 +1,4 @@
-import { Recipe } from '../../shared/recipe.model';
+import { Recipe } from '../../shared/model/recipe.model';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
